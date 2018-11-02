@@ -1,0 +1,21 @@
+body {
+    background-image: url("crystal_ball.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    background-size: cover;
+
+    text-align: center;
+}
+
+div {
+    font-size: 1.75em;
+    text-align: center;
+}
+
+.fortune {
+    font-size: 1em;
+    width: 20%;
+    margin-left: 40%;
+}

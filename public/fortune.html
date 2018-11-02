@@ -1,0 +1,26 @@
+<html>
+
+<head>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <title>City Finder</title>
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" href="main.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+  <script src="fortune.js"></script>
+</head>
+
+<body>
+  <div ng-app='app' ng-controller='mainCtrl'>
+    <div>
+    Your Fortune!
+    </div>
+    <button ng-click='fortuneFunc()'>Click For Your Fortune!</button>
+    <div class='fortune'> 
+      {{ fortune }}
+    </div>
+  </div>
+
+</body>
+
+</html>
